@@ -21,12 +21,12 @@ This document explains the fields of The Training Data Markup Language for Artif
 
 - Examples:
   - Dota-v1.5 Dataset:
-    -  [Item example-Dota-v1.5 Dataset](examples/DOTA-1.5 Dataset/whu_buildings_trainingdata_0000.json): Shows the basic usage of the extension in a STAC Item
-    -  [Collection example-Dota-v1.5 Dataset](examples/DOTA-1.5 Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
+    -  [Item example-Dota-v1.5 Dataset](examples/DOTA-1.5_Dataset/whu_buildings_trainingdata_0000.json): Shows the basic usage of the extension in a STAC Item
+    -  [Collection example-Dota-v1.5 Dataset](examples/DOTA-1.5_Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
   
-  - Whu building Dataset:
-    -  [Item example-WHU building Dataset](examples/WHU-building Dataset/item.json): Shows the basic usage of the extension in a STAC Item
-    -  [Collection example-WHU building Dataset](examples/WHU-building Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
+  - WHU building Dataset:
+    -  [Item example-WHU building Dataset](examples/WHU-building_Dataset/item.json): Shows the basic usage of the extension in a STAC Item
+    -  [Collection example-WHU building Dataset](examples/WHU-building_Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
   
 - [JSON Schema](json-schema/schema.json)
 - [Changelog](./CHANGELOG.md)
