@@ -1,0 +1,42 @@
+{
+    "stac_version": "1.0.0",
+    "stac_extensions": [
+      "https://stac-extensions.github.io/trainingdml-ai/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/ml-aoi/v1.0.1/schema.json"
+    ],
+    "type": "Feature",
+    "id": "whu_buildings_trainingdata_0000",
+    "bbox": [-180.0, -90.0, 180.0, 90.0],
+    "geometry": null,
+    "properties": {
+      "datetime": "2019-01-01T00:00:00.000Z",
+      "ml-aoi:split": "train",
+      "trainingdml-ai:number_of_labels": 323,
+      "trainingdml-ai:data_sources": [
+        "Google Earth"
+      ]
+    },
+    "links": [
+      {
+        "href": "examples/DOTA-1.5 Dataset/DOTA_v1.5_trainingdata_0000.json",
+        "rel": "self"
+      },
+      {
+        "rel":"collection",
+        "href": "examples/DOTA-1.5 Dataset/collection.json"
+      }
+    ],
+    "assets": {
+      "data": {
+        "title": "P0000.png",
+        "type": "image/png",
+        "href": "http://oge.whu.edu.cn/dataset/dota-v1.5/image/P0000.png"
+      },
+      "labels":{
+        "title": "P0000-label.json",
+        "type": "application/json",
+        "href": "http://oge.whu.edu.cn/dataset/dota-v1.5/label/dota_v1.5_trainingdata_0000_label.json"
+      }
+    }
+  }
+  

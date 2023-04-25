@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/trainingdml-ai/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/ml-aoi/v1.0.1/schema.json"
+  ],
+  "type": "Feature",
+  "id": "whu_buildings_training_data_0001",
+  "bbox": [
+    1560160,
+    5176338.4,
+    1566661.4,
+    5179409.2
+
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1560160,
+          5176338.4
+        ],
+        [
+          1560160,
+          5179409.2
+        ],
+        [
+          1566661.4,
+          5176338.4
+        ],
+        [
+          1566661.4,
+          5179409.2
+        ],
+        [
+          1560160,
+          5176338.4
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "start_datetime": "2012-01-01T00:00:00.000Z",
+    "end_datatime": "2016-01-01T00:00:00.000Z",
+    "ml-aoi:split": "train",
+    "trainingdml-ai:number_of_labels": 1,
+    "trainingdml-ai:data_sources": [
+    ]
+  },
+  "links": [
+    {
+      "href": "https://example.com/examples/item.json",
+      "rel": "self"
+    },
+    {
+      "rel":"collection",
+      "href": "/examples/collection.json"
+    }
+  ],
+  "assets": {
+    "before": {
+      "title": "whu_building_img_before",
+      "type": "image/tiff",
+      "href": "http://oge.whu.edu.cn/dataset/whu-building/before/whu-building_0001.tif"
+      
+    },
+    "after": {
+      "title": "whu_building_img_after",
+      "type": "image/tiff",
+      "href": "http://oge.whu.edu.cn/dataset/whu-building/after/whu-building_0001.tif"
+      
+    },
+    
+    "label": {
+      "title": "whu_building_label",
+      "href": "http://oge.whu.edu.cn/dataset/whu-building/label/whu-building_0001.png",
+      "type": "image/png"
+    }
+  }
+}
