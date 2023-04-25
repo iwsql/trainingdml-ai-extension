@@ -1,7 +1,7 @@
 # TrainingDML-AI Extension Specification
 
 - **Title:** TrainingDML-AI
-- **Identifier:** <https://stac-extensions.github.io/template/v1.0.0/schema.json>
+- **Identifier:** <https://stac-extensions.github.io/trainingdml-ai/v1.0.0/schema.json>
 - **Field Name Prefix:** trainingdml-ai
 - **Scope:** Item, Collection
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
@@ -20,8 +20,14 @@ This document explains the fields of The Training Data Markup Language for Artif
 
 
 - Examples:
-  - [Item example](examples/item.json): Shows the basic usage of the extension in a STAC Item
-  - [Collection example](examples/collection.json): Shows the basic usage of the extension in a STAC Collection
+  - Dota-v1.5 Dataset:
+    - [Item example-Dota-v1.5 Dataset](examples/DOTA-1.5 Dataset/whu_buildings_trainingdata_0000.json): Shows the basic usage of the extension in a STAC Item
+    - [Collection example-Dota-v1.5 Dataset](examples/DOTA-1.5 Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
+  
+  - Whu building Dataset:
+    - [Item example-whu building Dataset](examples/WHU-building Dataset/item.json): Shows the basic usage of the extension in a STAC Item
+    - [Collection example-whu building Dataset](examples/WHU-building Dataset/collection.json): Shows the basic usage of the extension in a STAC Collection
+  
 - [JSON Schema](json-schema/schema.json)
 - [Changelog](./CHANGELOG.md)
 
