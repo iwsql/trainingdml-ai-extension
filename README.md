@@ -44,6 +44,7 @@ The fields in the table below can be used in these parts of STAC documents:
 | -------------------- | ------------------------- | ----------- |
 | trainingdml-ai:amount_of_training_data | number              | **Required**, Total  number of training samples in the AI training dataset. |
 | traingingdml-ai:updated_time | string | Time when the AI training dataset was updated. |
+| trainingdml-ai:classification_schema | string | Classification schema for classes used in the AI  training dataset. |
 | trainingdml-ai:metrics_in_LIT       | MetricsInLIT Object | Results of performance metrics achieved by AI/ML algorithms in the peer-reviewed  literature. |
 | trainingdml-ai:image_size           | [String]            | Size of the images used in the EO training dataset.          |
 | trainingdml-ai:number_of_classes    | number              | Total number of classes in the AI training dataset.          |
@@ -56,20 +57,22 @@ In addition, fields from the following extensions must be imported in the item:
 
 - the [Label Extension Specification](https://github.com/stac-extensions/label) to describe label label of training data.
 - the [ML AOI Extension Specification](https://github.com/stac-extensions/ml-aoi) to describe training type of training data.
+- the [Scientific Citation Extension](https://github.com/stac-extensions/scientific) to describe doi of training dataset.
+- the [Electro-Optical Extension](https://github.com/stac-extensions/eo) to describe bands of training data.
 
 ### Additional Field Information
 
-#### trainingdml-ai:amount_of_training_tata 
+#### trainingdml-ai:amount_of_training_data 
 
 Total number of training samples in the AI training dataset.
-
-#### trainingdml-ai:created_time 
-
- Time when the AI training dataset was created. 
 
 #### trainingdml-ai:updated_time  
 
 Time when the AI training dataset was updated. 
+
+#### trainingdml-ai:classification_schema
+
+ Time when the AI training dataset was created. 
 
 ####  trainingdml-ai:metrics_in_LIT 
 
@@ -160,6 +163,7 @@ It is higly recommended to use the following fields to describe the training dat
 | [label: methods](https://github.com/stac-extensions/label/blob/main/README.md#item-properties) | Methods used in the labeling procedure.                      |
 | [ml-aoi: split](https://github.com/stac-extensions/ml-aoi#item-properties-and-collection-fields) | Training type of the individual AI.                          |
 | [eo: bands](https://github.com/stac-extensions/eo#band-object) | Description of the image bands used in the EO training dataset. |
+| [sci:doi](https://github.com/stac-extensions/scientific#item-properties-and-collection-fields) | Digital object identifier of the AI training dataset.        |
 
 ## Contributing
 
